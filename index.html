@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz HTML, CSS e JS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>Quiz HTML, CSS e JavaScript</h1>
+
+        <form id="quiz">
+
+            <h2>HTML</h2>
+
+            <p>1. Qual tag cria um título?</p>
+            <label><input type="radio" name="q1" value="a"> &lt;h1&gt;</label>
+            <label><input type="radio" name="q1" value="b"> &lt;p&gt;</label>
+
+            <p>2. Qual tag cria um link?</p>
+            <label><input type="radio" name="q2" value="a"> &lt;img&gt;</label>
+            <label><input type="radio" name="q2" value="b"> &lt;a&gt;</label>
+
+
+            <h2>CSS</h2>
+
+            <p>3. Para que serve o CSS?</p>
+            <label><input type="radio" name="q3" value="a"> Estilizar a página</label>
+            <label><input type="radio" name="q3" value="b"> Criar banco de dados</label>
+
+            <p>4. Qual propriedade muda a cor do texto?</p>
+            <label><input type="radio" name="q4" value="a"> color</label>
+            <label><input type="radio" name="q4" value="b"> margin</label>
+
+
+            <h2>JavaScript</h2>
+
+            <p>5. Para que serve o JavaScript?</p>
+            <label><input type="radio" name="q5" value="a"> Adicionar interatividade</label>
+            <label><input type="radio" name="q5" value="b"> Apenas criar textos</label>
+
+            <p>6. Qual comando mostra uma mensagem no console?</p>
+            <label><input type="radio" name="q6" value="a"> console.log()</label>
+            <label><input type="radio" name="q6" value="b"> print()</label>
+
+            <button type="submit">Finalizar</button>
+
+        </form>
+
+        <div id="resultado"></div>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
